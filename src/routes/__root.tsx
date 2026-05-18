@@ -126,6 +126,7 @@ function RootComponent() {
       <HudShell>
         <Outlet />
       </HudShell>
+      <Toaster />
     </QueryClientProvider>
   );
 }
